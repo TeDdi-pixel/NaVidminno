@@ -1,0 +1,86 @@
+body {
+  font-family: Times New Roman monospace;
+}
+
+button.More_inf {
+  color: yellow;
+  border-color: none;
+  border-style: solid;
+  border-radius: 50%;
+  border-width: thin;
+  width: 50px;
+  height: 50px;
+  outline: none;
+  transition: 550ms;
+  text-shadow: 1px 1px 1px silver, -1px 1px 1px silver;
+}
+
+button.More_inf:hover {
+  border-top-left-radius: 1px;
+  border-bottom-right-radius: 1px;
+  border-color: orange;
+  border-width: thin;
+  color: #FFC9D7;
+  text-shadow: 1px 1px 10px 2px #FD4466;
+  transition: 550ms 150ms ease-out;
+  outline: none;
+  text-shadow: -1px -1px 1px silver, 1px -1px 1px silver;
+}
+
+button.Less_inf {
+  color: #FF4968;
+  border-color: none;
+  border-style: solid;
+  border-radius: 50%;
+  border-width: thin;
+  width: 50px;
+  height: 50px;
+  outline: none;
+  transition: 550ms;
+  text-shadow: 0 0 0 crimson;
+  color: #C41165;
+  animation: shadows 4s infinite ease-in;
+}
+
+button.Less_inf:hover {
+  border-top-right-radius: 1px;
+  border-bottom-left-radius: 1px;
+  border-color: #C41067;
+  border-width: thin;
+  color: #290452;
+  transition: 550ms 150ms ease-out;
+  outline: none;
+  text-shadow: 0 0 15px #999;
+}
+
+.heart_checkbox {
+  width: 50px;
+  height: 50px;
+  color: purple;
+}
+
+.heart_checkbox:hover {
+  transition: 500ms 0.1s linear;
+}
+
+.test {
+  z-index: auto;
+  background-image: url(https://avatanplus.com/files/resources/original/5a844d33b6e0716194cd9225.jpg);
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-left: 3px;
+  text-align: center;
+}
+
+.x {
+  font-size: 30px;
+  color: red;
+  padding-left: auto;
+}
+
+.x:hover {
+  transition: 550ms text ease-in;
+  color: orange;
+  transform: rotate(180deg);
+}
